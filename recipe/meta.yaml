@@ -1,5 +1,5 @@
 {% set name = "heligeo" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heligeo-{{ version }}.tar.gz
-  sha256: 04b0f22f52db2aedfd24a7b694d4f4585e17b9a0144a66199f459f3615b5e757
+  sha256: 5fe8d9c70d3382260d03b5f9a50a1608f62d1bc22594d1fa975bf5f965f34eec
 
 build:
   number: 0
@@ -35,8 +35,8 @@ test:
     - pip
 
 about:
-  home: https://github.com/NandanPattanayak/heligeo
-  summary: Api that perform Visualization,Route,Isochrone and Geoprocessing Service
+  home: https://pypi.org/project/heligeo/
+  summary: Python client for requests to heligeo API services
   license: MIT
   license_file: LICENSE
 
