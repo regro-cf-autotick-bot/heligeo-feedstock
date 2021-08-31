@@ -1,13 +1,13 @@
 About heligeo
 =============
 
-Home: https://github.com/NandanPattanayak/heligeo
+Home: https://pypi.org/project/heligeo/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/heligeo-feedstock/blob/master/LICENSE.txt)
 
-Summary: Api that perform Visualization,Route,Isochrone and Geoprocessing Service
+Summary: Python client for requests to heligeo API services
 
 Current build status
 ====================
