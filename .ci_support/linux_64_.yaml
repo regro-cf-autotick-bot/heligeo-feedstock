@@ -6,15 +6,6 @@ channel_targets:
 - conda-forge main
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
-<<<<<<< HEAD
-pin_run_as_build:
-  python:
-    min_pin: x.x
-    max_pin: x.x
-python:
-- 3.9.* *_cpython
-=======
->>>>>>> 9eafa48d12abb5fcb9cde7d635149eebcc8f35a1
 zip_keys:
 - - cdt_name
   - docker_image
