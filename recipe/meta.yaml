@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python
   run:
     - numpy
     - plotly
-    - python >=3.6
+    - python
     - requests
     - shapely
-    - pandas
+    - pandas 
 
 test:
   imports:
