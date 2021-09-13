@@ -1,5 +1,5 @@
 {% set name = "heligeo" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heligeo-{{ version }}.tar.gz
-  sha256: 5fe8d9c70d3382260d03b5f9a50a1608f62d1bc22594d1fa975bf5f965f34eec
+  sha256: 49a8785dbd68972d9465507211bf743d86c9bc0a103960b7eef67b62461403a4
 
 build:
   number: 0
@@ -20,12 +20,13 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - dash
     - numpy
+    - pandas
     - plotly
     - python >=3.6
     - requests
     - shapely
-    - pandas 
 
 test:
   imports:
