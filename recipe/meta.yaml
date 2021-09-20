@@ -27,6 +27,7 @@ requirements:
     - python >=3.6
     - requests
     - shapely
+    - dash-bootstrap-components
 
 test:
   imports:
