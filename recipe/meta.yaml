@@ -22,6 +22,7 @@ requirements:
   run:
     - dash
     - dash-bootstrap-components
+    - dash-core-components
     - numpy
     - pandas
     - plotly
