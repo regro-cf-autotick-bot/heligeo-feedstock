@@ -18,14 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - dash
     - dash-bootstrap-components
     - numpy
     - pandas
     - plotly
-    - python
+    - python >=3.6
     - requests
     - shapely
 
