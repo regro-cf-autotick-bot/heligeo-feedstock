@@ -21,6 +21,7 @@ requirements:
     - python >=3.6
   run:
     - dash ==2.0.0
+    - dash-table
     - dash-bootstrap-components
     - dash-core-components
     - dash-html-components
