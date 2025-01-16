@@ -7,18 +7,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/heligeo-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/heligeo-{{ version }}.tar.gz
   sha256: 308e9d31a8a385dc165bbe9926674866e99892c6bd645412ba193c04123416fe
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
   run:
     - dash ==2.0.0
     - dash-table
@@ -28,7 +28,7 @@ requirements:
     - numpy
     - pandas
     - plotly
-    - python >=3.6
+    - python >={{ python_min }}
     - requests
     - shapely
 
@@ -39,6 +39,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/heligeo/
